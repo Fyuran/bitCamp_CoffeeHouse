@@ -1,0 +1,198 @@
+﻿
+/*Universale per tutte le pagine*/
+* {
+    font-family: Purista;
+}
+
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: #BDA69A;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+    max-width: 95vw;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    max-width: 95vw;
+}
+
+nav {
+    text-align: center;
+    color: white;
+    background-color: #808080;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    max-width: 95vw;
+    padding: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+    form label {
+        display: block;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    form input, form select {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    form button {
+        background-color: #BDA69A;
+        color: #fff;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/*Generico*/
+.generico_img-gallery {
+    margin: 10px 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .generico_img-gallery .image-item {
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .generico_img-gallery img {
+        width: 100%;
+        height: auto;
+        border: 5px solid #572916;
+    }
+
+.generico_img-gallery-desc {
+    margin-top: 10px;
+}
+
+.generico_div {
+    background-color: rgba(0,0,0,0.2);
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+    .generico_div p {
+        text-align: left;
+    }
+
+.generico_imgHead {
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 10px;
+    max-width:80%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align:center;
+}
+
+.generico_imgHead img {
+    max-width:inherit;
+    max-height:auto;
+}
+
+/*pagina menu*/
+.menu_icone {
+    max-width: 10%;
+    padding: 20px;
+}
+    .menu_icone:hover {
+        border: 1px solid #572916;
+        transform: scale(1.1, 1.1);
+    }
+
+.menu_oggetti {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border-style:solid;
+    border-color:rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+}
+
+    .menu_oggetti img {
+        float: left;
+        margin-right: 10px;
+        max-width: 10%;
+        max-height: 200px;
+    }
+
+    .menu_oggetti .prezzo {
+        font-size:18px;
+        clear:both;
+        text-align: center;
+        padding: 10px;
+        max-width: 20%;
+        background-color: rgba(255,0,0,0.2)
+    }
+
+/*Pagina contattaci*/
+.contatti_maps {
+    width: 80%; /* imposto la larghezza della mappa */
+    height: 400px; /* imposto un' altezza fissa per la mappa */
+    border: solid; /* bordo */
+    margin-left: 10%;
+}
+
+.contatti_div {
+    background-color: rgba(0,0,0,0.2);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

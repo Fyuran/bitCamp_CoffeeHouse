@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CoffeeHouse - Prenotazioni" />
+    <meta name="keywords" content="caffè, bar, pasticceria, dolci, zucchero, gusto, crema, latte, cappuccino, macchiato, liscio, lungo, bignè, cioccolata, marmellata, brioche" />
+    <meta name="author" content="Classe Bitcamp PT Team 2" />
+    <title>CoffeeHouse - Prenotazioni</title>
+    <link rel="stylesheet" href="src/CoffeeHouse_template.css" />
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" height="128" width="128" />
+        <h1>CoffeeHouse</h1>
+        <p>I nostri caffè sin dal 1890</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="chiSiamo.html">Chi siamo</a>
+        <a href="contatti.html">Contatti</a>
+        <a href="prenotazioni.html">Prenotazioni</a>
+    </nav>
+
+    <section>
+        <h2>Per prenotazioni compila il form sottostante: </h2>
+        <form>
+            <label for="nominativi">Nome e Cognome</label>
+            <input type="text" id="nominativi" name="testo" required />
+
+            <label for="ospiti">Numero Ospiti</label>
+            <input type="text" id="ospiti" name="testo" required />
+
+            <label for="data">Orario</label>
+            <input type="time" id="time" name="time" required />
+
+            <label for="data"> Data </label>
+            <input type="date" id="data" name="data" required />
+
+            <button type="submit">Prenota il tuo posto da noi!</button>
+        </form>
+    </section>
+
+
+
+
+    <footer>
+        <p>&copy; 2024 CoffeeHouse - tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
