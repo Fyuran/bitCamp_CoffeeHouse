@@ -1,7 +1,6 @@
 ﻿@font-face {
     font-family: 'Purista Medium';
-    src: local('Purista Medium'), local('Purista-Medium'),
-        url('../src/fonts/Purista-Medium.woff2') format('woff2'),
+    src: url('../src/fonts/Purista-Medium.woff2') format('woff2'),
         url('../src/fonts/Purista-Medium.woff') format('woff'),
         url('../src/fonts/Purista-Medium.ttf') format('truetype');
     font-weight: 500;
